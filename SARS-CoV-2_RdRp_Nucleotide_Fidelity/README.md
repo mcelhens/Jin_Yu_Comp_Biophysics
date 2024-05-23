@@ -22,9 +22,11 @@ ATP and Remdesivir-TP:
 	keywords = {RdRp, read},
 	pages = {888--902},
 }
+```
 
 dATP and GTP:
 
+```
 @article{romero_trapping_2023,
 	title = {Trapping non-cognate nucleotide upon initial binding for replication fidelity control in {SARS}-{CoV}-2 {RNA} dependent {RNA} polymerase},
 	copyright = {All rights reserved},
