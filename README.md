@@ -1,12 +1,13 @@
-# Jin_Yu_Comp_Biophysics
-Public Repository of the Jin Yu Lab for Computational Biophysics currently including run input examples for some published works. Please cite included citations and see citations for results.
+# Jin Yu Comp. Biophysics
+Public Repository of the Jin Yu Lab for Computational Biophysics currently including run input examples for some published works. Please cite appropriate included citations and see citations for results.
 
 Additional READMEs are included in folders with details on included files.
 
-Nucleotide Fidelity of SARS-CoV-2 RNA-Dependent RNA Polymerase
+Nucleotide Fidelity of SARS-CoV-2 RNA-Dependent RNA Polymerase (RdRp)
 
 Example case of dATP input files included for equilibrium, umbrella sampling, and steered MD.
 
+```
 @article{romero_probing_2021,
 	title = {Probing remdesivir nucleotide analogue insertion to {SARS}-{CoV}-2 {RNA} dependent {RNA} polymerase in viral replication},
 	volume = {6},
@@ -23,7 +24,6 @@ Example case of dATP input files included for equilibrium, umbrella sampling, an
 	note = {Publisher: The Royal Society of Chemistry},
 	keywords = {RdRp, read},
 	pages = {888--902},
-	file = {Romero et al. - 2021 - Probing remdesivir nucleotide analogue insertion t.pdf:D\:\\Zotero\\storage\\N2XZ7I4U\\Romero et al. - 2021 - Probing remdesivir nucleotide analogue insertion t.pdf:application/pdf;Snapshot:D\:\\Zotero\\storage\\VP2V68Z8\\D1ME00088H.html:text/html},
 }
 
 @article{romero_trapping_2023,
@@ -39,5 +39,5 @@ Example case of dATP input files included for equilibrium, umbrella sampling, an
 	month = dec,
 	year = {2023},
 	note = {Publisher: The Royal Society of Chemistry},
-	file = {Full Text PDF:D\:\\Zotero\\storage\\MIDLZHSA\\Romero et al. - 2023 - Trapping non-cognate nucleotide upon initial bindi.pdf:application/pdf;Supplementary Information PDF:D\:\\Zotero\\storage\\JQ95ZWJH\\Romero et al. - 2023 - Trapping non-cognate nucleotide upon initial bindi.pdf:application/pdf},
 }
+```
