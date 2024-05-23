@@ -97,7 +97,12 @@ SMD_plumed.dat
 3. Thermalize with nvt.mdp
 4. Equilibrate with npt_eq.mdp
 5. Prepare targeted MD by selecting quasi-equilbrium structure
-6. Perform targeted MD with TMD_plumed.dat and npt_es.mdp
-7. Select windows and perform umbrella sampling with Umbrella_plumed.dat and npt_es.mdp
-8. Standard parameters for WHAM (see WHAM documentation) are used for reweighting removing 10 ns of each window for equilibration
-9. Steered MD may be performed if desired on umbrella window results using SMD_plumed.dat and npt_es.mdp
+   1. Selected open and closed windows will be included as the reference structures for RMSD in both the targeted MD and umbrella sampling files.
+7. Perform targeted MD with TMD_plumed.dat and npt_es.mdp
+8. Select windows and perform umbrella sampling with Umbrella_plumed.dat and npt_es.mdp
+9. Standard parameters for WHAM (see WHAM documentation) are used for reweighting removing 10 ns of each window for equilibration
+10. Steered MD may be performed if desired on umbrella window results using SMD_plumed.dat and npt_es.mdp
+
+## To perform simulations for other NTPs
+
+Simple modifications can be performed to mutate dATP to other desired NTPs. Please see citations for how modifications were performed in these cases; though other valid methods exist.
