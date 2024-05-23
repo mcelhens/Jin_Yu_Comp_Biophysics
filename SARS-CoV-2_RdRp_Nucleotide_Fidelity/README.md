@@ -4,6 +4,7 @@
 
 ATP and Remdesivir-TP:
 
+```
 @article{romero_probing_2021,
 	title = {Probing remdesivir nucleotide analogue insertion to {SARS}-{CoV}-2 {RNA} dependent {RNA} polymerase in viral replication},
 	volume = {6},
@@ -20,7 +21,6 @@ ATP and Remdesivir-TP:
 	note = {Publisher: The Royal Society of Chemistry},
 	keywords = {RdRp, read},
 	pages = {888--902},
-	file = {Romero et al. - 2021 - Probing remdesivir nucleotide analogue insertion t.pdf:D\:\\Zotero\\storage\\N2XZ7I4U\\Romero et al. - 2021 - Probing remdesivir nucleotide analogue insertion t.pdf:application/pdf;Snapshot:D\:\\Zotero\\storage\\VP2V68Z8\\D1ME00088H.html:text/html},
 }
 
 dATP and GTP:
@@ -38,8 +38,8 @@ dATP and GTP:
 	month = dec,
 	year = {2023},
 	note = {Publisher: The Royal Society of Chemistry},
-	file = {Full Text PDF:D\:\\Zotero\\storage\\MIDLZHSA\\Romero et al. - 2023 - Trapping non-cognate nucleotide upon initial bindi.pdf:application/pdf;Supplementary Information PDF:D\:\\Zotero\\storage\\JQ95ZWJH\\Romero et al. - 2023 - Trapping non-cognate nucleotide upon initial bindi.pdf:application/pdf},
 }
+```
 
 ## Included files
 
