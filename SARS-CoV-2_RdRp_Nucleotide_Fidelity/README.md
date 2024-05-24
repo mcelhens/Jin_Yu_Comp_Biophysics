@@ -92,7 +92,7 @@ SMD_plumed.dat
 
 > steered MD generator
 
-## How to generate
+## How to generate using Gromacs and Plumed
 
 1. Generate water box with ions using a cubic box of 1.5 nm margins and 100 mM of neutralizing NaCl
 2. Minimize with minimize.mdp
