@@ -1,9 +1,12 @@
 # Jin Yu Comp. Biophysics
+
 Public Repository of the Jin Yu Lab for Computational Biophysics currently including run input examples for some published works. Please cite appropriate included citations and see citations for results.
 
 Additional READMEs are included in folders with details on included files.
 
-Nucleotide Fidelity of SARS-CoV-2 RNA-Dependent RNA Polymerase (RdRp)
+[Jin Yu Lab Website](https://sites.uci.edu/jinyulab/)
+
+## Nucleotide Fidelity of SARS-CoV-2 RNA-Dependent RNA Polymerase (RdRp)
 
 Example case of dATP input files included for equilibrium, umbrella sampling, and steered MD.
 
