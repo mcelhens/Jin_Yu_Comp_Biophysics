@@ -1,0 +1,131 @@
+[ bondedtypes ]
+; Column 1 : default bondtype
+; Column 2 : default angletype
+; Column 3 : default proper dihedraltype
+; Column 4 : default improper dihedraltype
+; Column 5 : This controls the generation of dihedrals from the bonding.
+;            All possible dihedrals are generated automatically. A value of
+;            1 here means that all these are retained. A value of
+;            0 here requires generated dihedrals be removed if
+;              * there are any dihedrals on the same central atoms
+;                specified in the residue topology, or
+;              * there are other identical generated dihedrals
+;                sharing the same central atoms, or
+;              * there are other generated dihedrals sharing the
+;                same central bond that have fewer hydrogen atoms
+; Column 6 : number of neighbors to exclude from non-bonded interactions
+; Column 7 : 1 = generate 1,4 interactions between pairs of hydrogen atoms
+;            0 = do not generate such
+; Column 8 : 1 = remove proper dihedrals if found centered on the same
+;                bond as an improper dihedral
+;            0 = do not generate such
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          9          4        1         3      1     0
+
+; now: water, ions, urea, terminal caps, AA's and terminal AA's
+
+[ RTP ] 
+ [ atoms ]
+     O5'        OS     -0.59870     1  ; Meagher, K.L. et al., JCC 24, 101, 2003
+      PA        P2      1.25320     2  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O1A        O2     -0.87990     3  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O2A        O2     -0.87990     4  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O3A        OS     -0.56890     5  ; Meagher, K.L. et al., JCC 24, 101, 2003
+      PB        P2      1.38520     6  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O1B        O2     -0.88940     7  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O2B        O2     -0.88940     8  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O3B        OS     -0.53220     9  ; Meagher, K.L. et al., JCC 24, 101, 2003
+      PG        P2      1.26500    10  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O1G        O3     -0.95260    11  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O2G        O3     -0.95260    12  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     O3G        O3     -0.95260    13  ; Meagher, K.L. et al., JCC 24, 101, 2003
+     C5'        CT      0.039981   14
+    H5'1        H1      0.085276   15
+    H5'2        H1      0.085276   16
+     C4'        CT      0.083427   17
+     C3'        CT      0.329872   18
+     C2'        CT     -0.074121   19
+     O2'        OH     -0.626760   20
+    HO'2        HO      0.462358   21
+    H2'1        H1      0.146103   22
+     O3'        OH     -0.654100   23
+     H3T        HO      0.437600   24
+     H3'        H1      0.076195   25
+     H4'        H1      0.065203   26
+     O4'        OS     -0.332867   27
+     C1'        CT      0.130365   28
+      C9        CK     -0.118619   29
+      C8        CK     -0.228326   30
+      C7        CK     -0.259805   31
+      C5        CB     -0.394730   32
+      C6        CA      1.014028   33
+      N1        NC     -0.863108   34
+      C2        CQ      0.630021   35
+      N3        NC     -0.744123   36
+      N4        RMN_na  0.603011   37
+      H2        H5      0.076123   38
+      N6        N2     -1.042464   39
+     H61        H       0.443695   40
+     H62        H       0.443695   41
+      H7        HA      0.224555   42
+      H8        HA      0.199975   43
+     C6'        RMN_c1  0.461023   44
+     N6'        RMN_n1 -0.505959   45
+ [ bonds ]
+   O5'   C5'
+   C5'  H5'1
+   C5'  H5'2
+   C5'   C4'
+   C4'   C3'
+   C4'   H4'
+   C4'   O4'
+   C3'   C2'
+   C3'   O3'
+   C3'   H3'
+   C2'   O2'
+   C2'  H2'1
+   C2'   C1'
+   O2'  HO'2
+   O3'   H3T
+   O4'   C1'
+   C1'    C9
+   C1'   C6'
+    C9    C8
+    C9    N4
+    C8    C7
+    C8    H8
+    C7    C5
+    C7    H7
+    C5    C6
+    C5    N4
+    C6    N1
+    C6    N6
+    N1    C2
+    C2    N3
+    C2    H2
+    N3    N4
+    N6   H61
+    N6   H62
+   C6'   N6'
+   O5'    PA
+    PA   O1A
+    PA   O2A
+    PA   O3A
+   O3A    PB
+    PB   O1B
+    PB   O2B
+    PB   O3B
+   O3B    PG
+    PG   O1G
+    PG   O2G
+    PG   O3G
+ [ impropers ]
+   C1'    C8    C9    N4
+    C9    C5    N4    N3
+    C8    C5    C7    H7
+    C7    C9    C8    H8
+    C7    C6    C5    N4
+    C5    N6    C6    N1
+    C6   H61    N6   H62
+    H2    N1    C2    N3
+
