@@ -1,9 +1,5 @@
 # Example set of input files for simulation nucleotide fidelity of SARS-CoV-2 RdRp using dATP
 
-## Please be aware the reference structures and topology will be updated soon
-
-Current PDB is insufficient for easy simulation and will be dealt with as reasonable. Please contact Jin Yu in the meantime (updated 6 June 2024)
-
 ## Please include the following citations:
 
 ATP and Remdesivir-TP:
@@ -95,6 +91,10 @@ Umbrella_plumed.dat
 SMD_plumed.dat
 
 > steered MD generator
+
+ligand_topologies
+
+> generated topologies for NTPs: GTP, RDV-TP (RTP), and dATP (dAP)
 
 ## How to generate using Gromacs and Plumed
 
