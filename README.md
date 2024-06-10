@@ -6,6 +6,10 @@ Additional READMEs are included in folders with details on included files.
 
 [Jin Yu Lab Website](https://sites.uci.edu/jinyulab/)
 
+## A note on forcefields
+
+Unless otherwise noted in a publication we use the Amber14sb-parmbsc1-tip3p-gaff forcefield collection. This forcefield is available online.
+
 ## Nucleotide Fidelity of SARS-CoV-2 RNA-Dependent RNA Polymerase (RdRp)
 
 Example case of dATP input files included for equilibrium, umbrella sampling, and steered MD.
@@ -44,3 +48,6 @@ Example case of dATP input files included for equilibrium, umbrella sampling, an
 	note = {Publisher: The Royal Society of Chemistry},
 }
 ```
+## Disclaimer
+
+We do our best to provide necessary files and information. If you have questions, you may contact the corresponding author. We provide no guarantee of compatibility with other softwares or forcefields.
